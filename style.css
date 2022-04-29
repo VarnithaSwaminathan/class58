@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    font-family: 'Water Brush', cursive;
+    letter-spacing: 5px;
+    
+}
+#tbli{
+    height: 300px;
+    border-radius: 50%;
+}
+#welcome{
+    width: 100%;
+    background: linear-gradient(#ed09e6 0%,#03fce3 100%);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#hw1,#hw2{
+    font-size: 40px;
+    /* font-family: cursive; */
+    font-weight: 300;
+}
+#name{
+    font-size: 50px;
+    font-weight: 700;
+}
+#bio{
+    /* font-family: monospace; */
+    padding: 50px;
+}
+#hb1{
+    font-size: 30px;
+}
+#pb1{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    word-spacing: 10px;
+}
+.menu{
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 250px;
+    cursor: pointer;
+    z-index: 10;
+}
+.links{
+    float: left;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+}
+.links:hover{
+color: red;
+text-decoration: underline;
+font-size: 30px;
+}
